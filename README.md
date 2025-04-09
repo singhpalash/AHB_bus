@@ -85,7 +85,8 @@ A major highlight of this project is the layered SystemVerilog testbench, design
 
 # RTL
 
-<img width="779" alt="image" src="https://github.com/user-attachments/assets/f56f0d73-e8c8-4915-82c5-08979ef47af0" />
+<img width="745" alt="image" src="https://github.com/user-attachments/assets/a91ad990-df25-4d88-bc0d-5c961f7c8549" />
+
 
 
 # How to Run
