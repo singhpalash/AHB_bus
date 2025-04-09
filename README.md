@@ -71,31 +71,31 @@ A major highlight of this project is the layered SystemVerilog testbench, design
 </table>
 
 # Testbench Overview
-The layered testbench follows a structured approach inspired by the UVM-like architecture:
+- The layered testbench follows a structured approach inspired by the UVM-like architecture:
 
-Interface Module: Bundles all AHB signals for clean connectivity between DUT and test components.
+- Interface Module: Bundles all AHB signals for clean connectivity between DUT and test components.
 
-Driver: Sends valid AHB read/write transfers by manipulating HTRANS, HADDR, HWRITE, and HWDATA.
+- Driver: Sends valid AHB read/write transfers by manipulating HTRANS, HADDR, HWRITE, and HWDATA.
 
-Monitor: Observes HRDATA, HREADYOUT, and HRESP, and logs behavior for analysis.
+- Monitor: Observes HRDATA, HREADYOUT, and HRESP, and logs behavior for analysis.
 
-Scoreboard: Compares expected vs actual values to flag mismatches in functional correctness.
+- Scoreboard: Compares expected vs actual values to flag mismatches in functional correctness.
 
-Top Testbench: Instantiates all components and connects them via the interface.
+- Top Testbench: Instantiates all components and connects them via the interface.
 
 # How to Run
-Compile all Verilog and SystemVerilog files in your simulator (e.g., using VCS, Questa, or XSIM).
+- Compile all Verilog and SystemVerilog files in your simulator (e.g., using VCS, Questa, or XSIM).
 
-Run the simulation and observe waveform or logs to validate correctness.
+- Run the simulation and observe waveform or logs to validate correctness.
 
-Customize WAIT_CYCLES and memory depth as needed for different test scenarios.
+- Customize WAIT_CYCLES and memory depth as needed for different test scenarios.
 
 # Future Enhancements
-Extend support for burst and protection attributes.
+- Extend support for multiple masters and protection attributes.
 
-Add assertions and coverage collection.
+- Add assertions and coverage collection.
 
-Create error injection scenarios for robustness testing.
+- Create error injection scenarios for robustness testing.
 
 
 
