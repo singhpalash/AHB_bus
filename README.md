@@ -83,6 +83,11 @@ A major highlight of this project is the layered SystemVerilog testbench, design
 
 - Top Testbench: Instantiates all components and connects them via the interface.
 
+# RTL
+
+<img width="779" alt="image" src="https://github.com/user-attachments/assets/f56f0d73-e8c8-4915-82c5-08979ef47af0" />
+
+
 # How to Run
 - Compile all Verilog and SystemVerilog files in your simulator (e.g., using VCS, Questa, or XSIM).
 
